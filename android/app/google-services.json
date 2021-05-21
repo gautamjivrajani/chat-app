@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "821039418567",
+    "project_id": "chat-app-16e12",
+    "storage_bucket": "chat-app-16e12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821039418567:android:a1a9d002fe162deb5642e2",
+        "android_client_info": {
+          "package_name": "com.gauti1309.chatting_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821039418567-msa48rvohdugmqlfteg3h2jhq1nd6fm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGNYi9ILsoFT4IUrEYPwul0rjVhL7D1HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821039418567-msa48rvohdugmqlfteg3h2jhq1nd6fm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
