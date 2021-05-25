@@ -63,6 +63,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 48.0,
               ),
               box(
+                  back: Colors.white,
+                  hint: Colors.black,
                   hinttext: 'Enter your Email...',
                   co: Colors.orange,
                   onChanged: (value) {
@@ -72,6 +74,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 20.0,
               ),
               box(
+                  back: Colors.white,
+                  hint: Colors.black,
                   hinttext: 'Enter your Password...',
                   co: Colors.orange,
                   onChanged: (value) {
@@ -81,7 +85,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 24.0,
               ),
               button1(
-                  title: 'Login',
+                  title: 'Log in',
                   c: Colors.white,
                   onPressed: () async {
                     setState(() {

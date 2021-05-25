@@ -42,15 +42,21 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   height: 48.0,
                 ),
                 box(
+                  back: Colors.white,
+                    hint: Colors.black,
                     hinttext: 'Enter your Email...',
                     co: Colors.orange,
                     onChanged: (value) {
+                      style: TextStyle(color: Colors.white);
                       email = value;
-                    }),
+                    }
+                    ),
                 SizedBox(
                   height: 20.0,
                 ),
                 box(
+                    back: Colors.white,
+                    hint: Colors.black,
                     hinttext: 'Enter your password...',
                     co: Colors.orange,
                     onChanged: (value) {

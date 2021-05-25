@@ -29,19 +29,24 @@ class button1 extends StatelessWidget {
 }
 
 class box extends StatelessWidget {
-  box({this.hinttext, this.co, @required this.onChanged});
+  box({this.hinttext, this.co, @required this.onChanged , this.back , this.hint});
   final String hinttext;
   final Color co;
   final Function onChanged;
+  final Color back;
+  final Color hint;
+
 
   @override
   Widget build(BuildContext context) {
     return TextField(
       onChanged: onChanged,
       decoration: InputDecoration(
+        filled: true,
+        fillColor: back,
         hintText: hinttext,
         hintStyle: Theme.of(context).textTheme.caption.copyWith(
-              color: Colors.white,
+              color: hint,
               fontSize: 15.0,
             ),
         contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
